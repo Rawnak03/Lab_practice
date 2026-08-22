@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+
+<form action="" method="post" enctype="multipart/form-data">
+
+    Name:<br>
+    <input type="text" name="firstname" value="Mr A"
+           placeholder="Your Name" required>
+    <br>
+
+    <input type="hidden" name="lastname" value="hghf">
+    <br>
+
+    Email:<br>
+    <input type="email" name="email" required>
+    <br>
+
+    Mobile:<br>
+    <input type="number" name="mobile">
+    <br>
+
+    DOB:<br>
+    <input type="date" name="dob">
+    <br>
+
+    Password:<br>
+    <input type="password" name="password">
+    <br>
+
+    Gender:<br>
+    <input type="radio" name="gender" checked>Male
+    <input type="radio" name="gender">Female
+    <br>
+
+    Courses:<br>
+    <input type="checkbox" name="c[]"> CSE 3209
+    <input type="checkbox" name="c[]"> CSE 3210
+    <br>
+
+    District:<br>
+    <select name="dist">
+        <option>Select district</option>
+        <option value="raj">Rajshahi</option>
+        <option value="dha">Dhaka</option>
+    </select>
+    <br><br>
+
+    <textarea name="address" rows="5" cols="30"></textarea>
+    <br>
+
+    <input type="file" name="file">
+    <br>
+
+    <input type="reset" name="" value="Clear">
+    <input type="submit" name="sub" value="Add">
+
+</form>
+
+</body>
+</html>
