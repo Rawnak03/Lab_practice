@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color:rgb(2, 43, 2);
+            display:flex;
+            align-items:right;
+        }
+        .nav_con1{
+            text-align:left;
+            font-size:40px;
+            font-family:'Poppins', sans-serif;
+            color:rgb(210, 126, 17);
+            margin:5px 0px 5px 20px;
+            
+        }
+        .nav_con2{
+            display:flex;
+            gap:20px;
+            margin:20px 20px 20px 90px;
+            
+            
+        
+        }
+        .nav_con2 a{
+            color:rgb(225, 220, 213);
+            text-decoration:none;
+            
+        }
+        nav a:hover{
+            color:azure;
+        }
+        .container {
+            position:relative;
+        }
+        img{
+            width: 475px;
+            height:150px;
+        }
+        .text{
+           
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+}
+.text p{
+    color:rgb(234, 215, 175)
+}
+.division{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+
+}
+.division {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid black;
+}
+.appetizer {
+    background-color: lightyellow;
+}
+
+.main-course {
+    background-color: lightblue;
+}
+
+.drinks {
+    background-color: rgb(215, 200, 202);
+}
+
+.dessert {
+    background-color: rgb(186, 237, 186);
+}
+.price{
+    float:right;
+}
+button{
+
+    border:2px solid black
+    margin:10px;
+    padding:10px;
+    background-color:green;
+
+}
+
+    
+        
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav_con1"> Crave </div>
+        <div class="nav_con2">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="container">
+        <img src="IMG/food.jpg">
+        <div class="text">
+        <h2>welcome TO
+            <br >
+           <b><em>Crave!!</em> </b>
+        </h2> 
+        
+        <p>Fresh Ingredients  <b>.</b>  Authentic  <b>.</b>  Always</p>
+        </div>
+
+    <div class="division">
+
+    <div class="box appetizer">
+        <h2>Appetizers</h2>
+        <p>French Fries<span class="price">200tk</span></p>
+        <p>Chicken Wings<span class="price">300tk</span></p>
+    </div>
+
+    <div class="box main-course">
+        <h2>Main Course</h2>
+        <p>Burger<span class="price">150tk</span></p>
+        <p>Pizza<span class="price">200tk</span></p>
+    </div>
+
+    <div class="box drinks">
+        <h2>Drinks</h2>
+        <p>Coffee<span class="price">200tk</span></p>
+        <p>Cold Drinks<span class="price">100tk</span></p>
+    </div>
+
+    <div class="box dessert">
+        <h2>Dessert</h2>
+        <p>Ice Cream<span class="price">200tk</span></p>
+        <p>Cake<span class="price">500tk</span></p>
+    </div>
+
+</div><br>
+
+    <button>Order Now</button>
+
+    
+
+    
+</body>
+</html>
